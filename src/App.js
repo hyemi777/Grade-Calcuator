@@ -1,9 +1,16 @@
 import './App.css';
+import Navbar from './navbar/Navbar';
 
-// enter code within div
 function App() {
   return (
-    <div className="App">
+    <div className="Home">
+      <div className="Home-"></div>
+      <Navbar className="Navbar"></Navbar>
+      <div>Syllabus here</div>
+      <div>Grade Scale here</div>
+      <div>
+        Input chart here
+      </div>
     </div>
   );
 }
